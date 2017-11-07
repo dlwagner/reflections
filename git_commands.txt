@@ -1,0 +1,11 @@
+Git commands:
+
+
+git init : initializes the directory for Git.
+git add : adds a file from the working directory to the staging area
+git commit : adds new files to the repository and/or adds new changes to repository.
+git status : shows the current status of the staging area and repository
+
+git diff : compares working directory with staging area
+git diff --staging area : compares staging area with commit 1 (or the most recent commit).
+git diff commit 1 commit 2 : compares commit 1 with commit 2.
