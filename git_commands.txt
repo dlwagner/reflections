@@ -38,3 +38,18 @@ Pull from GitHub:
 #git pull origin master
 
 
+Forking: (these actions are taken on GitHub)
+Login to GitHub
+Locate the repository you want to fork
+Click the fork icon
+
+
+Cloning a Fork: From your computer
+#git clone https://(the address of your repository)
+Now, You do no need to add the fork on GitHub as a remote, because Git has done this already for you.
+#git remote -v (Verify the fetch and push addresses)
+
+
+Add Collaborators: (This is done on GitHub)
+Click Settings -> Collaborators
+Add the Collaborators GitHub username
