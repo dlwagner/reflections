@@ -1,4 +1,4 @@
-Git commands:
+Git commands: (From Udacity "How to use Git course")
 
 
 git init : initializes the directory for Git.
@@ -9,3 +9,32 @@ git status : shows the current status of the staging area and repository
 git diff : compares working directory with staging area
 git diff --staging area : compares staging area with commit 1 (or the most recent commit).
 git diff commit 1 commit 2 : compares commit 1 with commit 2.
+
+Adding a repository on git:
+1. select new repository
+2. give it a name
+3. leave as public
+4. only include a readme if there are no commits
+
+Refer to Udacity courseLesson 3 #5 for video explaining these commands
+Adding the new repository as a remote on my computer:
+1. copy the https url of the remote repository from github
+2. In git bash:
+	#git remote add origin https://(your remote repository address)
+	#git remote (to see that it was added)
+	#git remote -v (to the fetch and push addresses)
+	#git push origin master
+
+
+Add commits to Git Hub to existing repository:
+	#git push origin master (remember that origin is what we use when making a new repository)
+
+
+Using credential manager:
+https://help.github.com/articles/caching-your-github-password-in-git/
+
+
+Pull from GitHub:
+#git pull origin master
+
+
